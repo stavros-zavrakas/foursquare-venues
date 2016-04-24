@@ -1,0 +1,27 @@
+{
+  "name": "foursquare-venues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stavros Zavrakas",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "express": "4.13.4",
+    "express-handlebars": "3.0.0",
+    "foreman": "1.4.1",
+    "jquery": "2.2.3",
+    "logfmt": "1.2.0",
+    "requirejs": "2.2.0",
+    "throng": "4.0.0"
+  },
+  "devDependencies": {
+    "bower": "1.7.9",
+    "jshint": "2.9.2",
+    "jshint-stylish": "2.1.0"
+  }
+}
