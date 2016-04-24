@@ -5,6 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "nf start",
+
+    "client:clean:css": "rm -rf lib/web/public/css/libs",
+    "client:copy:css": "mkdir lib/web/public/css/libs && cp node_modules/bootstrap/dist/css/bootstrap.min.css lib/web/public/css/libs",
+
+    "client:clean:js": "rm -rf lib/web/public/js/libs",
+    "client:copy:js": "mkdir lib/web/public/js/libs && cp node_modules/jquery/dist/jquery.min.js lib/web/public/js/libs",
+
+    "client:clean": "npm run client:clean:css && npm run client:clean:js",
+    "client:build": "npm run client:copy:css && npm run client:copy:js",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stavros Zavrakas",
@@ -16,7 +26,6 @@
     "foreman": "1.4.1",
     "jquery": "2.2.3",
     "logfmt": "1.2.0",
-    "requirejs": "2.2.0",
     "throng": "4.0.0"
   },
   "devDependencies": {
