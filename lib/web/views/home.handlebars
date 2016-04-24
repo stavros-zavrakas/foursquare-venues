@@ -4,11 +4,23 @@
   </div>
 </div>
 
-<form>
-  <label for="her-search">Place:</label>
-  <input type="text" class="form-control her-location" id="her-location">
+<div class="panel panel-default">
+  <div class="panel-body">
+    <form role="form">
 
-  <button type="submit" class="btn btn-default her-search">Search</button>
-</form>
+      <div class="input-group">
+        <input type="text" class="form-control her-location" placeholder="Search for...">
+        <span class="input-group-btn">
+          <button class="btn btn-default her-search" type="submit">Search!</button>
+        </span>
+      </div>
 
-<div class="her-results"></div>
+    </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="list-group her-results"></div>
+  </div>
+</div>
