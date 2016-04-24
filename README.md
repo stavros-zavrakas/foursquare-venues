@@ -1,21 +1,22 @@
 # Simple foursqare integration
 
-MVC approach:
+**MVC approach:**
+
 The events are initialized during document ready and the important dependencies like models, renderer etc are injected in the events.
 
-* Libs that are used to build this project:
+**Libs that are used to build this project:**
 - jQuery
 - Bootstrap 3
 
-Steps to build and run this project:
+**Steps to build and run this project:**
 - npm install
 - npm run client:build
 - npm start
 
-Linting the code:
+**Linting the code:**
 - npm run lint
 
-Useful tasks during development:
+**Useful tasks during development:**
 - npm run client:clean:css
 - npm run client:copy:css
 - npm run client:clean:js
