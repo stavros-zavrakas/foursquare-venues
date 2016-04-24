@@ -23,3 +23,5 @@ The events are initialized during document ready and the important dependencies 
 - npm run client:copy:js
 - npm run client:clean
 - npm run client:build
+
+The server grabs the configuration from the .env file (root of the project). This is the default behaviour of [node foreman](https://github.com/strongloop/node-foreman). Remove the CONCURRENCY env var from this file if you want to start on a cluster depending on the number of CPUs or change the PORT if you want to listen to different port than 8080.
