@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nf start",
 
-    "lint": "jshint --reporter=node_modules/jshint-stylish lib/",
+    "lint": "jshint --reporter=node_modules/jshint-stylish --exclude-path=./.gitignore lib/",
 
     "client:clean:css": "rm -rf lib/web/public/css/libs",
     "client:copy:css": "mkdir lib/web/public/css/libs && cp node_modules/bootstrap/dist/css/bootstrap.min.css lib/web/public/css/libs",
